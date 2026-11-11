@@ -1,0 +1,10 @@
+id = "exp_boost"
+name = "EXP Boost"
+version = "1.0.0"
+kyubu = "^1.1"
+sides = ["client", "server"]
+authors = ["you"]
+description = "Multiplies the XP gained from kills. Set the multiplier in kyubu/config/exp_boost.toml."
+
+[native]
+common = "bin/exp_boost.dll"

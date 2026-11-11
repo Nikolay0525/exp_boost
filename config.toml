@@ -1,0 +1,7 @@
+# Options players can change in kyubu/config/exp_boost.toml (docs/config.md).
+[options.exp_multiplier]
+type = "float"
+default = 3.0
+min = 0.0
+max = 1000.0
+description = "Multiplier for the XP gained from kills (1.0 = vanilla, 2.0 = +100%, 5.0 = five times as much)."
